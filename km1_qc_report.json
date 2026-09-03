@@ -1,0 +1,78 @@
+{
+  "extracted_points_per_arm": {
+    "Arm 1": 45,
+    "Arm 2": 64
+  },
+  "number_at_risk_used": {
+    "Arm 1": [
+      {
+        "time": 0.0,
+        "n_risk": 120
+      },
+      {
+        "time": 12.0,
+        "n_risk": 90
+      },
+      {
+        "time": 24.0,
+        "n_risk": 60
+      },
+      {
+        "time": 36.0,
+        "n_risk": 35
+      },
+      {
+        "time": 48.0,
+        "n_risk": 15
+      }
+    ],
+    "Arm 2": [
+      {
+        "time": 0.0,
+        "n_risk": 115
+      },
+      {
+        "time": 12.0,
+        "n_risk": 70
+      },
+      {
+        "time": 24.0,
+        "n_risk": 40
+      },
+      {
+        "time": 36.0,
+        "n_risk": 20
+      },
+      {
+        "time": 48.0,
+        "n_risk": 5
+      }
+    ]
+  },
+  "estimated_events_per_arm": {
+    "Arm 1": 120,
+    "Arm 2": 115
+  },
+  "estimated_censored_per_arm": {
+    "Arm 1": 0,
+    "Arm 2": 0
+  },
+  "reconstructed_sample_size_per_arm": {
+    "Arm 1": 120,
+    "Arm 2": 115
+  },
+  "max_absolute_km_error": {
+    "Arm 1": 0.5333,
+    "Arm 2": 0.4957
+  },
+  "mean_absolute_km_error": {
+    "Arm 1": 0.0247,
+    "Arm 2": 0.0177
+  },
+  "warnings": [
+    "High maximum absolute error (0.533) between reconstructed and digitized KM curves for arm 'Arm 1'.",
+    "High maximum absolute error (0.496) between reconstructed and digitized KM curves for arm 'Arm 2'."
+  ],
+  "errors": [],
+  "created_at": "2026-09-02T16:31:15.545008+00:00"
+}
